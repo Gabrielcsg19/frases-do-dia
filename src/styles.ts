@@ -147,8 +147,12 @@ export const ContactDescription = styled.span`
   opacity: 0.7;
 `;
 
-export const ContactMention = styled.span`
+export const ContactMention = styled.a.attrs({
+  href: "https://instagram.com/sitiodovovocarlinho",
+  target: "__blank",
+})`
   font-family: ${({ theme }) => theme.fonts.Oswald};
   font-size: 24px;
   color: ${({ theme }) => theme.colors["brown.200"]};
+  text-decoration: none;
 `;
