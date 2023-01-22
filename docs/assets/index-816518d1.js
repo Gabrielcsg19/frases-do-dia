@@ -148,10 +148,11 @@ Error generating stack: `+o.message+`
   font-family: ${({theme:e})=>e.fonts.BalsamiqSans};
   color: ${({theme:e})=>e.colors["brown.100"]};
   opacity: 0.7;
-`,Am=fe.span`
+`,Am=fe.a.attrs({href:"https://instagram.com/sitiodovovocarlinho",target:"__blank"})`
   font-family: ${({theme:e})=>e.fonts.Oswald};
   font-size: 24px;
   color: ${({theme:e})=>e.colors["brown.200"]};
+  text-decoration: none;
 `;function Lm(){const e=Math.floor(Math.random()*wa.length),t=wa[e];return yt(mm,{children:[yt(vm,{children:[Ie(ym,{}),yt(gm,{children:[Ie(wm,{}),yt(Sm,{children:[Ie(km,{}),Ie(Cm,{children:"Frase do dia"})]}),yt(xm,{children:[Ie(Em,{}),Ie(Pm,{children:t.text}),Ie(_m,{}),yt(Nm,{children:["- ",t.author]})]})]})]}),Ie(zm,{children:yt(Tm,{children:[Ie(Rm,{}),yt($m,{children:[Ie(Om,{children:"Siga-nos no Instagram"}),Ie(Am,{children:"@sitiodovovocarlinho"})]})]})})]})}const Im=pm`
   * {
     box-sizing: border-box;
